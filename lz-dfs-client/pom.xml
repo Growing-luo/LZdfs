@@ -2,20 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>LZdfs</artifactId>
+        <groupId>com.growing</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.growing</groupId>
-    <artifactId>LZdfs</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>lz-dfs-common</module>
-        <module>lz-dfs-namenode</module>
-        <module>lz-dfs-datanode</module>
-        <module>lz-dfs-client</module>
-        <module>lz-dfs-rpc</module>
-        <module>lz-dfs-tools</module>
-    </modules>
+    <artifactId>lz-dfs-client</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
